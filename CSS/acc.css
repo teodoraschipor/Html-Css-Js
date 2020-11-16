@@ -1,0 +1,51 @@
+container {
+	position:sticky;
+	top: 20vw;
+  margin: auto;
+  width: 500px;
+  overflow: auto;
+  padding: 3rem 2rem;
+    box-sizing: border-box;
+}
+
+#my-form {
+  padding: 2rem;
+  background: none;;
+  top:2vw;
+}
+
+#my-form label {
+  display: block;
+}
+#my-form input[type='password'] {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 200px;
+  border: 1px solid #ccc;
+}
+
+#my-form input[type='text'] {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 200px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  display: block;
+  width: 50%;
+  padding: 10px 15px;
+  border: 0;
+  background: #333;
+  color: black;
+  border-radius: 200px;
+  margin: 5px 0;
+}
+.error{
+	color:red;
+}
+.ok{
+	color:green;
+}

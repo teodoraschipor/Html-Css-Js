@@ -1,0 +1,15 @@
+table {
+	width:80%;
+	height:40em;
+	margin:auto;
+	background: rgba(80,1,0,.5);
+}
+table, th, td {
+  border: 2px solid #000000;
+  border-collapse: collapse;
+  color:#c3c3c3;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}

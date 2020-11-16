@@ -1,0 +1,70 @@
+img{
+	top:2vw;
+	left:6vw;
+	opacity: 0.6;
+	transition: 0.3s;
+	border: 6px solid #ddd;
+	/*Center image
+	display: block;
+	margin-left: auto;
+	margin-right: auto;*/
+}
+img:hover {opacity: 1}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+	top: 28px;
+  left: 100%;
+  /* Position the tooltip */
+  position: absolute;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+#p1{
+	font-style:italic;
+	color:blue;
+}
+#p2{
+	position:relative;
+	top:2vw;
+}
+h5{ 
+	top:1vw;
+	position:relative;
+}
+h3{
+	top:1vw;
+	position: relative;
+}
+/* !!!!!!!!!!!!!!!!!!!!! */
+@media screen and (max-width: 600px){
+	.tooltip{
+		justify-content:left;
+	}
+	img{
+		height:300px;
+		width:300px;
+	}
+	.tooltip.tooltiptext
+	{
+		width:200px;
+	}
+}
+div
+{
+	top:1vw;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}

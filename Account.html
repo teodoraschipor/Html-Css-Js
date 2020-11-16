@@ -1,0 +1,70 @@
+<html>
+
+<head>
+		<title>GLOBAL WARMING AND CLIMATE CHANGE</title>
+        <base href="C:\Users\teo\Documents\INFO\ANUL%20II\SEMESTRUL%201\Tehnici%20Web\PROIECT1\">
+        <link rel="shortcut icon" type="image/x-icon" href="./IMAGES/icon.png">
+        <meta charset="UTF-8">
+        <meta name="description" content="CLIMATE CHANGE">
+        <meta name="keywords" content="EARTH, CLIMATE, CHANGE, GLOBAL, WARMING">
+        <meta name="author" content="Teodora Schipor">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="CSS/home.css">
+        <link rel="stylesheet" type="text/css" href="CSS/acc.css">
+</head>
+<body>
+		<ul class = "meniu">
+		<li><a class="active" href="Home.html">HOME</a></li>
+		<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn">FACTS</a>
+			<div class="dropdown-content">
+				<a href="Evidence.html">Evidence</a>
+				<a href="Causes.html">Causes. Effects. Solutions.</a>
+			</div>
+		</li>
+		<li><a href="News.html">NEWS</a></li>
+		<li><a href="Account.html">ACCOUNT2</a></li>
+		</ul>
+		<div class="mobilebtn">Menu
+		</div>
+		
+		<div class="mobilemen">
+				<a class="active" href="Home.html">HOME</a>
+				<a href="javascript:void(0)" class="dropbtn">FACTS</a>
+				<a href="Evidence.html">Evidence</a>
+				<a href="Causes.html">Causes. Effects. Solutions.</a>
+				<a href="News.html">NEWS</a>
+				<a href="Account.html">ACCOUNT</a>
+				<a class="mobileclose">Close</a>
+		</div>
+		
+			
+			<section class="container">
+				<form id="my-form">
+					<h1> ACCOUNT </h1>
+					<div class="msg"></div>
+					<div>
+						<label for="name">Username:</label>
+						<input type="text" id="name">
+					</div>
+					<div>
+						<label for="pass">Password:</label>
+						<input type="password" id="pass">
+					</div>
+					<input class="btn" type="submit" value="Submit">
+				</form>
+				
+				<ul id="users"></ul>
+			</section>
+			<p id="?"></p>
+			<section>
+				<p>How much CO2(ppm) do you think is in atmosphere?(To check your answer press "c")</p>
+				<button onclick="myFunction()"> CO2 </button>
+				<p id="co2"></p>
+			</section>
+		<p id="date"></p>
+		<script src="jsacc.js"></script>
+		<script src="js.js"></script>
+</body>
+
+</html>
